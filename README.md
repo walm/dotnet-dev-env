@@ -5,6 +5,10 @@ A terminal based dotnet core development environment with neovim and tmux.
 
 Configs been customize to follow my needs, feel free to clone and modify, this still is in a w.i.p for me :)
 
+<h2 align="center">
+  <img alt="screenshot" src="https://raw.githubusercontent.com/walm/dotnet-dev-env/master/screenshot.png">
+</h2>
+
 ## Build
 
 Default build as docker image `dotnet-dev`
