@@ -25,3 +25,5 @@ COPY config/init.vim /home/dev/.config/nvim/
 
 RUN nvim +PlugInstall +qall
 RUN nvim +OmniSharpInstall +qall
+
+RUN dotnet tool install -g dotnet-aspnet-codegenerator

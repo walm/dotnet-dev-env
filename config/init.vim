@@ -156,7 +156,7 @@ let g:ale_linters = { 'cs': ['OmniSharp'] }
 " }}}
 
 " asyncomplete: {{{
-let g:asyncomplete_auto_popup = 1
+let g:asyncomplete_auto_popup = 0
 let g:asyncomplete_auto_completeopt = 0
 " }}}
 
