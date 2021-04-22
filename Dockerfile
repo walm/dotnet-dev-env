@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:5.0-focal
 RUN apt update
-RUN apt install -yy tmux software-properties-common xclip jq curl sqlite make
+RUN apt install -yy tmux software-properties-common \
+                    xclip jq curl sqlite make silversearcher-ag
 RUN add-apt-repository -yy ppa:neovim-ppa/stable
 RUN apt install -yy neovim
 
